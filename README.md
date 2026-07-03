@@ -26,7 +26,7 @@ The augmented audio pool is used to build a 248-dimensional cepstral feature rep
 - **Note:** The dataset is not bundled in this repository. Download it separately and update `DATASET_PATH` in the notebook. Patient-level diagnosis labels are hardcoded from Rocha et al. (2019) as a fallback if `ICBHI_Challenge_diagnosis.txt` is unavailable.
 
 <p align="center">
-  <img src="images/Patient_level.jpeg" alt="Disease Distribution — Patient Level (ICBHI 2017)" width="700">
+  <img src="images/Patient level.jpeg" alt="Disease Distribution — Patient Level (ICBHI 2017)" width="700">
 </p>
 <p align="center"><em>Figure: Patient-level disease distribution across the 126 ICBHI patients — COPD (56) and Healthy (33) dominate, while Asthma (1) and LRTI (2) are severely underrepresented.</em></p>
 
@@ -81,7 +81,7 @@ Stratified 5-Fold Cross-Validation (Accuracy, Precision, Recall, F1-Macro, ROC-A
 <p align="center"><em>Figure: Waveform-level effect of each augmentation on a sample COPD recording — original, noise injection, time stretching, and pitch shifting.</em></p>
 
 <p align="center">
-  <img src="images/Original_vs_Augmented_dataset.jpeg" alt="Class Distribution: Original vs Augmented Dataset" width="750">
+  <img src="images/Original vs Augmented_dataset.jpeg" alt="Class Distribution: Original vs Augmented Dataset" width="750">
 </p>
 <p align="center"><em>Figure: Per-class sample counts before and after augmentation — the pipeline roughly quadruples samples in every class while preserving relative class proportions.</em></p>
 
@@ -100,12 +100,12 @@ Stratified 5-Fold Cross-Validation comparison of the baseline (unaugmented) SVM 
 Audio augmentation applied directly to the raw waveform yields consistent gains in accuracy, precision, recall, and F1-macro score, with the most pronounced improvements observed in minority-class recall (Bronchiectasis, Bronchiolitis, Pneumonia, LRTI).
 
 <p align="center">
-  <img src="images/baseline_vs_audio.jpeg" alt="SVM Performance: Baseline vs Audio Augmentation (5-Fold CV)" width="850">
+  <img src="images/baseline vs audio.jpeg" alt="SVM Performance: Baseline vs Audio Augmentation (5-Fold CV)" width="850">
 </p>
 <p align="center"><em>Figure: 5-fold CV performance comparison — augmentation improves accuracy by +0.19, precision by +0.18, recall by +0.30, and F1-macro by +0.31 over the baseline.</em></p>
 
 <p align="center">
-  <img src="images/Confusion_matrix.jpeg" alt="Confusion Matrix — Augmented SVM (Test Set)" width="650">
+  <img src="images/Confusion matrix.jpeg" alt="Confusion Matrix — Augmented SVM (Test Set)" width="650">
 </p>
 <p align="center"><em>Figure: Confusion matrix on the held-out test set for the augmented SVM — strongest performance on COPD, Healthy, and Bronchiectasis; most confusion occurs between COPD and Healthy classes.</em></p>
 
