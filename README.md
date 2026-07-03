@@ -76,7 +76,7 @@ Stratified 5-Fold Cross-Validation (Accuracy, Precision, Recall, F1-Macro, ROC-A
 | Spectral roll-off mean/std | 2 | High-frequency energy |
 
 <p align="center">
-  <img src="images/Augmentation_comparison.jpeg" alt="Augmentation Comparison — COPD waveform" width="750">
+  <img src="images/Augmentation comparison.jpeg" alt="Augmentation Comparison — COPD waveform" width="750">
 </p>
 <p align="center"><em>Figure: Waveform-level effect of each augmentation on a sample COPD recording — original, noise injection, time stretching, and pitch shifting.</em></p>
 
