@@ -81,7 +81,7 @@ Stratified 5-Fold Cross-Validation (Accuracy, Precision, Recall, F1-Macro, ROC-A
 <p align="center"><em>Figure: Waveform-level effect of each augmentation on a sample COPD recording — original, noise injection, time stretching, and pitch shifting.</em></p>
 
 <p align="center">
-  <img src="images/Original vs Augmented_dataset.jpeg" alt="Class Distribution: Original vs Augmented Dataset" width="750">
+  <img src="images/Original vs Augmented dataset.jpeg" alt="Class Distribution: Original vs Augmented Dataset" width="750">
 </p>
 <p align="center"><em>Figure: Per-class sample counts before and after augmentation — the pipeline roughly quadruples samples in every class while preserving relative class proportions.</em></p>
 
